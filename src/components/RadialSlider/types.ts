@@ -42,6 +42,7 @@ export type CenterContentProps = {
   value?: number;
   centerContentStyle?: StyleProp<ViewStyle>;
   unitValueContentStyle?: StyleProp<ViewStyle>;
+  allowFontScaling?: boolean,
 };
 
 export type LineContentProps = {
